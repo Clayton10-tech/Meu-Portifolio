@@ -12,7 +12,7 @@ body{
 }
 header {
     padding: 20px 70px;
-    background: #8a828b;
+    background: black;
 
     & .menu {
         display: flex;
@@ -30,18 +30,22 @@ header {
         display: flex;
         align-items: center;
         gap: 60px;
+        
     }
 
     & ul li a{
-        color: #e8e6e7;
+        color: #878787;
         font-weight: 600;
         padding-bottom: 4px;
         transition: all 0.5s ease-in-out;
     }
 
     & ul li a:hover {
-        color: #0e0c0c;
+        color: #ffffff;
         border-bottom: 1px solid #fff;
+        padding: 10px;
+        background: rgba(18, 17, 17, 0.104);
+        border-radius: 5px;
     }
 }
 
@@ -50,30 +54,29 @@ main {
     padding: 30px;
 }
 
-.information {
+.carrosel {
     width: 100%;
-    height: 60vh;
+    height: 350px;
+    padding: 5px;
     border-radius: 10px;
-    background: #717171;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-    & .image{
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-        margin-top: 15px;
-        margin-bottom: 40px;
-        background: #e8e6e7;
-       
+    box-shadow: 2px 2px 2px black;
+    overflow: hidden;
+
+    & .container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0);
+        margin-left: 5px;
+        
     }
 
-    & h1{
-        text-align: center;
+    
+    
+    & img{
+        object-fit: cover;
+        width: 100%;
+        height: 350px;
+       
     }
 }
 
@@ -147,6 +150,4 @@ main {
 
 }
 
-.site-carro{
-    
-}
+

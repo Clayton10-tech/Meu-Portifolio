@@ -13,28 +13,56 @@
 
     <header>
 
-        <nav class="menu">
+        <nav class="nav-bar">
+            <div class="logo">
+               <h1>Clayton Oliveira</h1>
+            </div>
 
-            <img src="./img/logocs.png" alt="logo" class="logo">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
 
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
 
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">PROJETOS</a></li>
-                <li><a href="#">CONTATO</a></li>
-            </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="./img/menu_white_36dp.svg" alt="" class="icon"></button>
+            </div>
+
         </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+
+            </div>
+
+        </div>
     </header>
 
     <main>
 
-        <div class="information">
-            <div class="image">
+        <div class="carrosel">
 
+            <div class="container" id="img">
+                <img src="./img/Bem-vindo.png" alt="">
+                <img src="./img/banner2.png" alt="">
+                <img src="./img/banner2.png" alt="">
+                <img src="./img/banner2.png" alt="">
             </div>
-            <div class="name">
-                <h1>Clayton de Oliveira Santos</h1>
-            </div>
+
         </div>
 
         <h2 class="texto-store">Projeto iPhone Store</h2><br>
@@ -75,6 +103,8 @@
             controls="none"></iframe>
         </div>
     </main>
+
+    <script src="carrosel.js"></script>
 
 </body>
 
