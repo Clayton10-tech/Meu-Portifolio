@@ -325,7 +325,6 @@ section.slider {
         .site-carro {
             height: 400px;
             display: block;
-            justify-content: left;
 
             & .video {
                 width: 400px;
