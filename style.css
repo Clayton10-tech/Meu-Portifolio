@@ -11,11 +11,12 @@
     font-family: sans-serif;
 }
 
-body{
+body {
     background: #e8e6e7;
 }
+
 header {
-    background-color:  #24252a;
+    background-color: #24252a;
     box-shadow: 0px 3px 10px #464646;
 }
 
@@ -29,7 +30,7 @@ header {
     color: #fff;
     display: flex;
     align-items: center;
-    
+
 
     & h1 {
         font-family: 'Krona One';
@@ -47,7 +48,7 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
-    
+
     & li {
         padding: 10px;
         border-radius: 5px;
@@ -71,7 +72,7 @@ header {
     font-weight: 500;
 }
 
-.login-button button{
+.login-button button {
     border: none;
     background-color: #0187a7;
     padding: 10px 15px;
@@ -109,7 +110,8 @@ section.slider {
     display: flex;
 }
 
-.slider-content input, .img-mobile {
+.slider-content input,
+.img-mobile {
     display: none;
 }
 
@@ -122,10 +124,11 @@ section.slider {
 }
 
 .slide-box img {
-    width: 100% ;
+    width: 100%;
 }
 
-.nav-manual, .nav-auto {
+.nav-manual,
+.nav-auto {
     position: absolute;
     width: 100%;
     margin-top: 35%;
@@ -133,7 +136,8 @@ section.slider {
     justify-content: center;
 }
 
-.nav-manual .manual-btn, .nav-auto div {
+.nav-manual .manual-btn,
+.nav-auto div {
     border: 1px solid rgb(7, 5, 5);
     padding: 10px;
     border-radius: 50%;
@@ -141,7 +145,8 @@ section.slider {
     transition: 0.6s;
 }
 
-.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -149,19 +154,21 @@ section.slider {
     background: red;
 }
 
-#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3 {
+#radio1:checked~.nav-auto .auto-btn1,
+#radio2:checked~.nav-auto .auto-btn2,
+#radio3:checked~.nav-auto .auto-btn3 {
     background-color: red;
 }
 
-#radio1:checked ~ .primeiro {
+#radio1:checked~.primeiro {
     margin-left: 0%;
 }
 
-#radio2:checked ~ .primeiro {
+#radio2:checked~.primeiro {
     margin-left: -25%;
 }
 
-#radio1:checked ~ .primeiro {
+#radio1:checked~.primeiro {
     margin-left: -50%;
 }
 
@@ -182,7 +189,7 @@ section.slider {
     transition: 1s;
 
 
-    & .secframe{
+    & .secframe {
         width: 400px;
         height: 300px;
         border-radius: 5px;
@@ -191,7 +198,7 @@ section.slider {
 
     & .informacoes {
         text-align: right;
-        
+
     }
 }
 
@@ -276,16 +283,16 @@ section.slider {
             width: 100%;
         }
 
-       
+
     }
 
     .open {
         display: block;
     }
 
-    
 
-    
+
+
 
     .img-desktop {
         display: none;
@@ -295,7 +302,8 @@ section.slider {
         display: block;
     }
 
-    .nav-auto, .nav-manual {
+    .nav-auto,
+    .nav-manual {
         margin-top: 60%;
     }
 
@@ -304,31 +312,26 @@ section.slider {
         height: 500px;
         display: block;
 
-        & .secframe{
+        & .secframe {
             width: 400px;
             height: 300px;
             border-radius: 5px;
-    }
-    
-    .texto-store .endereco {
-        margin-top: 30px;
-    }
-    
-    .site-carro {
-        height: 400px;
-        display: block;
-        justify-content:left;
-
-        & .video {
-            width: 400px;
         }
+
+        .texto-store .endereco {
+            margin-top: 30px;
+        }
+
+        .site-carro {
+            height: 400px;
+            display: block;
+            justify-content: left;
+
+            & .video {
+                width: 400px;
+            }
+        }
+
+
     }
-
-    
 }
-
-
-
-
-
-
