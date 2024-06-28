@@ -299,22 +299,24 @@ section.slider {
         margin-top: 60%;
     }
 
+
+    .endereco {
+        display: block;
+    }
+    
+    .texto-store .endereco {
+        margin-top: 30px;
+    }
+    
+    .site-carro {
+        display: block;
+        justify-content:left;
+    }
     
 }
 
 
-.endereco {
-    display: block;
-}
 
-.texto-store .endereco {
-    margin-top: 30px;
-}
-
-.site-carro {
-    display: block;
-    justify-content:left;
-}
 
 
 
