@@ -303,6 +303,10 @@ section.slider {
 }
 
 
+.endereco {
+    display: block;
+}
+
 .texto-store .endereco {
     margin-top: 30px;
 }
