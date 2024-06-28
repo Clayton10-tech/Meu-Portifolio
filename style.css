@@ -303,6 +303,11 @@ section.slider {
     .endereco {
         height: 500px;
         display: block;
+
+        & .secframe{
+            width: 400px;
+            height: 300px;
+            border-radius: 5px;
     }
     
     .texto-store .endereco {
