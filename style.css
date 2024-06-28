@@ -196,6 +196,7 @@ section.slider {
 }
 
 .endereco:hover {
+    margin-top: 60px;
     background-color: #e8e6e7;
     opacity: 1;
     color: black;
